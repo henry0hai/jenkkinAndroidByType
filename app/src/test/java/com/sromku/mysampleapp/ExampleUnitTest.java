@@ -19,7 +19,7 @@ public class ExampleUnitTest {
     @Test
     public void addition_isFall() {
         try {
-            assertEquals(4, 2 + 3);
+            assertEquals(5, 2 + 3);
         } catch (Exception e) {
             Log.d("Error: ", e.getMessage());
         }
