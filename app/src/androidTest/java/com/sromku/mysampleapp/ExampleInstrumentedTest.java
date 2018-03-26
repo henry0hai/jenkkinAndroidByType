@@ -23,4 +23,12 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.sromku.mysampleapp", appContext.getPackageName());
     }
+
+
+    @Test
+    public void testString() throws Exception {
+        // Context of the app under test.
+
+        assertEquals(true, false);
+    }
 }
