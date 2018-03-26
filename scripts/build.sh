@@ -20,7 +20,7 @@ chmod +x ${propertiesFile}
 
 # update key properties based on build type
 if [ $buildType = 'debug' ]; then
-	(setProperty "KEYSTORE" "debug.keystore")
+	(setProperty "KEYSTORE" "release.keystore")
 	(setProperty "STORE_PASSWORD" "$storePass")
 	(setProperty "KEY_ALIAS" "$keyAlias")
 	(setProperty "KEY_PASSWORD" "$keyPass")
