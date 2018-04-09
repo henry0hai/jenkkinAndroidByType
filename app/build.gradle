@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         applicationId "com.sromku.mysampleapp"
@@ -50,6 +49,7 @@ android {
     }
 
     testBuildType "debug"
+    buildToolsVersion '27.0.3'
 }
 
 // set the keystore if we set the path
