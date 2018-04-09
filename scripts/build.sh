@@ -33,7 +33,7 @@ fi
 
 # clean project
 chmod +x gradlew
-./gradlew clean cleanBuildCache --stacktrace
+./gradlew clean --stacktrace
 
 # build
 if [ $buildType = 'debug' ]; then
